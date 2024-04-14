@@ -2,6 +2,19 @@
 
 # Software Engineering:
 Related repositories: https://github.com/stars/MfaXyz/lists/design-architectural-patterns
+
+## SOLID Principles:
+
+### Youtube:
+
+SOLID Unity3D by Jason Weimann: https://www.youtube.com/playlist?list=PLB5_EOMkLx_WjcjrsGUXq9wpTib3NCuqg
+
+Unite Austin 2017 - S.O.L.I.D. by Unity: https://youtu.be/eIf3-aDTOOA?si=ChavzshqEoKFUUML
+
+Practical Game Development by Infallible Code: https://www.youtube.com/playlist?list=PLKERDLXpXl_jmiWBfkcM4mSCa9MvdGpf9
+
+S.O.L.I.D Design Patterns by Dapper Dino: https://youtube.com/playlist?list=PLS6sInD7ThM21gSGGFC1mQBL9nqlmUQOo&si=_TASVT7cDi_mqJZd
+
 ## Design Patterns:
 Design pattern list: Object Pooling
 
@@ -19,16 +32,3 @@ Udemy Course: https://www.udemy.com/course/design-patterns-csharp-dotnet/
 
 ## Architectural Patterns:
 Architectural pattern list: service locator, layered, hexagonal, MVC, MVVM
-
-## SOLID Principles:
-
-### Youtube:
-
-SOLID Unity3D by Jason Weimann: https://www.youtube.com/playlist?list=PLB5_EOMkLx_WjcjrsGUXq9wpTib3NCuqg
-
-Unite Austin 2017 - S.O.L.I.D. by Unity: https://youtu.be/eIf3-aDTOOA?si=ChavzshqEoKFUUML
-
-Practical Game Development by Infallible Code: https://www.youtube.com/playlist?list=PLKERDLXpXl_jmiWBfkcM4mSCa9MvdGpf9
-
-S.O.L.I.D Design Patterns by Dapper Dino: https://youtube.com/playlist?list=PLS6sInD7ThM21gSGGFC1mQBL9nqlmUQOo&si=_TASVT7cDi_mqJZd
-
