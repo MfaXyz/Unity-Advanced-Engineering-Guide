@@ -26,7 +26,9 @@ Behavioral Design Patterns: Chain of Responsibility, Command, Interpreter, Itera
 
 Related Udemy Course: https://www.udemy.com/course/design-patterns-csharp-dotnet/
 
-Youtube: [Game Programming Patterns by Infallible Code](https://www.youtube.com/playlist?list=PLKERDLXpXl_hN_3tPJdLgjWJ12VH6igy1)
+### Youtube:
+
+[Game Programming Patterns by Infallible Code](https://www.youtube.com/playlist?list=PLKERDLXpXl_hN_3tPJdLgjWJ12VH6igy1)
 
 ### 18 Key Design Patterns Every Developer Should Know:
 ![18-oo-patterns](https://github.com/MfaXyz/Unity-Booster/assets/76481805/2d97ad67-1ce8-4ef8-aabd-cc0a403b861a)
