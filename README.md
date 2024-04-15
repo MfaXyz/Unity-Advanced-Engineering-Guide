@@ -27,8 +27,11 @@ Behavioral Design Patterns: Chain of Responsibility, Command, Interpreter, Itera
 Related Udemy Course: https://www.udemy.com/course/design-patterns-csharp-dotnet/
 
 ### Youtube:
-
 [Game Programming Patterns by Infallible Code](https://www.youtube.com/playlist?list=PLKERDLXpXl_hN_3tPJdLgjWJ12VH6igy1)
+
+[Game Programming Patterns Tutorials by Unity](https://www.youtube.com/playlist?list=PLX2vGYjWbI0TmDVbWNA56NbKKUgyUAQ9i)
+
+[Game Programming Patterns by Jason Weimann](https://www.youtube.com/playlist?list=PLB5_EOMkLx_VOmnIytx37lFMiajPHppmj)
 
 ### 18 Key Design Patterns Every Developer Should Know:
 ![18-oo-patterns](https://github.com/MfaXyz/Unity-Booster/assets/76481805/2d97ad67-1ce8-4ef8-aabd-cc0a403b861a)
@@ -37,10 +40,31 @@ Related Udemy Course: https://www.udemy.com/course/design-patterns-csharp-dotnet
 ## Architectural Patterns:
 Architectural pattern list: service locator, layered, hexagonal, MVC, MVVM
 
-# Concurrency:
+## Concurrency:
 
-## Multithreading:
-### Parallel Programming:
+### Multithreading:
+#### Parallel Programming:
 Related Udemy Course: [Learn Parallel Programming with C# and .NET](https://www.udemy.com/course/parallel-dotnet/)
 
-## Asynchronous Programming (vs Synchronous):
+### Asynchronous Programming (vs Synchronous):
+
+## Clean Code:
+
+### Youtube:
+[Clean Code - Uncle Bob - all lessons](https://youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj&si=ZpFGKBTFG1guYTVH)
+
+## Test Driven Development:
+### Youtube:
+[Test-Driven Development (TDD) in Unity by Infallible Code](https://www.youtube.com/playlist?list=PLKERDLXpXl_jJQiQOHDLimnulasAK3T5b)
+
+## Inversion of Control (IoC)
+[Zenject by Infallible Code](https://youtube.com/playlist?list=PLKERDLXpXl_jNJPY2czQcfPXW4BJaGZc_&si=Ar8vTmZIvcr-wfTC)
+
+# Miscs:
+
+### Youtube:
+[Live Tutorials & Coding Sessions by Infallible Code](https://www.youtube.com/playlist?list=PLKERDLXpXl_jyhY9wh8deByUuwz2W6y-P)
+
+[Productivity Assets for Unity by Infallible Code](https://youtube.com/playlist?list=PLKERDLXpXl_i5fEUdMo4bvn5-Nqh9aAcX&si=cY94QdKAxkSJ4Pqr)
+
+[Programming For Production iHeartGameDev](https://www.youtube.com/playlist?list=PLwyUzJb_FNeTR1Q7edAQuWkTKo_Ncq9ck)
