@@ -1,7 +1,9 @@
 # Unity-Software-Engineering-Guide
 
 # Software Engineering:
-[Related repositories](https://github.com/stars/MfaXyz/lists/design-architectural-patterns) 
+[Related repositories](https://github.com/stars/MfaXyz/lists/design-architectural-patterns)
+
+[High-level software development topics like domain driven design, design patterns, and antipatterns.](https://deviq.com/)
 
 ## SOLID Principles:
 
