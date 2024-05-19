@@ -76,6 +76,14 @@ Related Udemy Course: [Learn Parallel Programming with C# and .NET](https://www.
 [Test-Driven Development (TDD) in Unity by Infallible Code](https://www.youtube.com/playlist?list=PLKERDLXpXl_jJQiQOHDLimnulasAK3T5b)
 
 ## Inversion of Control (IoC)
+let’s clarify these concepts:
+#### Inversion of Control (IoC):
+It’s a programming principle that inverts the flow of control in an application. Instead of the programmer controlling the flow of a program, the external sources (framework, services, other components) take control of it. In the context of service containers, IoC is achieved by allowing the framework to do the binding and instantiation of dependencies.
+#### Dependency Injection (DI):
+DI is a subtype of IoC and is implemented by constructor injection, setter injection, or method injection1. It’s a more specific implementation that focuses on the way objects obtain their dependencies. DI talks about how one object acquires dependency on another object through abstraction.
+#### Dependency Inversion Principle (DIP):
+DIP is a principle of the SOLID principles in Object-Oriented Programming. It’s about decoupling dependencies between high-level and low-level layers through shared abstractions. Dependency Injection is a form of Inversion of Control, but it doesn’t necessarily achieve much decoupling. Dependency Inversion is what achieves the decoupling, and is facilitated by using Dependency Injection with an Inversion of Control Container.
+
 [Zenject by Infallible Code](https://youtube.com/playlist?list=PLKERDLXpXl_jNJPY2czQcfPXW4BJaGZc_&si=Ar8vTmZIvcr-wfTC)
 
 # Miscs:
