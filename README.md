@@ -7,6 +7,15 @@
 
 ## SOLID Principles:
 
+#### Single Responsiblity Principle:
+`A Module should be responsible for one thing and has one reason to change.`
+#### Open Closed Principle: 
+`A module should be open for extention but closed for modification. We can solve this problem by using interfaces.`
+#### Liskov Substitution principle: 
+`An Object(Such as class) may be replaced by a sub-object(such as a class that extends the first class) without breaking the program.
+Derived classes should extend without replacing the functionality of old classes.`
+
+
 ### Youtube:
 
 [SOLID Unity3D by Jason Weimann](https://www.youtube.com/playlist?list=PLB5_EOMkLx_WjcjrsGUXq9wpTib3NCuqg)
