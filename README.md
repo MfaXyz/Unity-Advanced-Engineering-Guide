@@ -18,7 +18,7 @@ Derived classes should extend without replacing the functionality of old classes
 `Classes should not be forced to depend on methods they do not use.`
 
 #### Dependency Inversion Principle:
-``
+`High level parts of the system should not depend on low level parts of the system directly, instead they should depend on some kind of abstraction(interface or abstract class)`
 
 ### Articles:
 [SOLID C# Series' Articles](https://dev.to/bytehide/series/22559)
