@@ -11,10 +11,17 @@
 `A Module should be responsible for one thing and has one reason to change.`
 #### Open Closed Principle: 
 `A module should be open for extention but closed for modification. We can solve this problem by using interfaces.`
-#### Liskov Substitution principle: 
+#### Liskov Substitution Principle: 
 `An Object(Such as class) may be replaced by a sub-object(such as a class that extends the first class) without breaking the program.
 Derived classes should extend without replacing the functionality of old classes.`
+#### Interface Segregation Principle: 
+`Classes should not be forced to depend on methods they do not use.`
 
+#### Dependency Inversion Principle:
+``
+
+### Articles:
+[SOLID C# Series' Articles](https://dev.to/bytehide/series/22559)
 
 ### Youtube:
 
