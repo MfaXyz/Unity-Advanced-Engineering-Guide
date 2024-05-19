@@ -18,9 +18,7 @@ Derived classes should extend without replacing the functionality of old classes
 `Classes should not be forced to depend on methods they do not use.`
 
 #### Dependency Inversion Principle:
-`High level parts of the system should not depend on low level parts of the system directly, instead they should depend on some kind of abstraction(interfaces)`
-##### Dependency Injection (DI):
-DI is a subtype of IoC and is implemented by constructor injection, setter injection, or method injection. It’s a more specific implementation that focuses on the way objects obtain their dependencies. DI talks about how one object acquires dependency on another object through abstraction. DIP is a principle of the SOLID principles in Object-Oriented Programming. It’s about decoupling dependencies between high-level and low-level layers through shared abstractions. Dependency Injection is a form of Inversion of Control, but it doesn’t necessarily achieve much decoupling. Dependency Inversion is what achieves the decoupling, and is facilitated by using Dependency Injection with an Inversion of Control Container.
+`High level parts of the system should not depend on low level parts of the system directly, instead they should depend on some kind of abstraction(interfaces)` So what is Dependency Injection? DI is a subtype of IoC(We will talk about it later) and is implemented by constructor injection, setter injection, or method injection. It’s a more specific implementation that focuses on the way objects obtain their dependencies. DI talks about how one object acquires dependency on another object through abstraction. DIP is a principle of the SOLID principles in Object-Oriented Programming. It’s about decoupling dependencies between high-level and low-level layers through shared abstractions. Dependency Injection is a form of Inversion of Control, but it doesn’t necessarily achieve much decoupling. Dependency Inversion is what achieves the decoupling, and is facilitated by using Dependency Injection with an Inversion of Control Container.
 
 
 ### Articles:
