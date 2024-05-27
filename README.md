@@ -37,13 +37,13 @@ So what is Dependency Injection? DI is a subtype of IoC (We will talk about it l
 [S.O.L.I.D Design Patterns by Dapper Dino](https://youtube.com/playlist?list=PLS6sInD7ThM21gSGGFC1mQBL9nqlmUQOo&si=_TASVT7cDi_mqJZd)
 
 ## Design Patterns:
-Design pattern list: Object Pooling
+Design pattern list:
 
-Creational Design Patterns: Builder, Factories (Factory Method and Abstract Factory), Prototype and Singleton
+Creational Design Patterns: 1-Deal with creation(construction) of objects 2-Explicit (constructor) VS Implicit (DI, Reflection, etc) | Example: Builder, Factories (Factory Method and Abstract Factory), Prototype and Singleton
 
-Structrural Design Patterns: Adapter, Bridge, Composite, Decorator, Façade, Flyweight and Proxy
+Structrural Design Patterns: 1- Concerned with structure (e.g, Class Members) 2- Many patterns are wrappers that mimic the underlying class interface. 3- Stress the importance of good API design | Example: Adapter, Bridge, Composite, Decorator, Façade, Flyweight and Proxy
 
-Behavioral Design Patterns: Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Null Object, Observer, State, Strategy, Template Method, Visitor, Blackboard
+Behavioral Design Patterns: 1- They are all different: No central theme | Example: Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Null Object, Observer, State, Strategy, Template Method, Visitor, Blackboard
 
 Related Udemy Course: https://www.udemy.com/course/design-patterns-csharp-dotnet/
 
