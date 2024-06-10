@@ -3,4 +3,4 @@
 ## Resources:
 [Refactoring Guru](https://refactoring.guru/design-patterns/builder)
 
-[geeksforgeeks](https://www.geeksforgeeks.org/builder-design-pattern/)
+[GeeksForGeeks](https://www.geeksforgeeks.org/builder-design-pattern/)
