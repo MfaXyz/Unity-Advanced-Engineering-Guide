@@ -86,7 +86,7 @@ It’s a programming principle that inverts the flow of control in an applicatio
 
 [Zenject by Infallible Code](https://youtube.com/playlist?list=PLKERDLXpXl_jNJPY2czQcfPXW4BJaGZc_&si=Ar8vTmZIvcr-wfTC)
 
-# Miscs:
+## Miscs:
 
 ### Youtube:
 [Live Tutorials & Coding Sessions by Infallible Code](https://www.youtube.com/playlist?list=PLKERDLXpXl_jyhY9wh8deByUuwz2W6y-P)
