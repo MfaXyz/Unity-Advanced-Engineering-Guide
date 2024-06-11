@@ -50,6 +50,8 @@ Behavioral Design Patterns: 1- They are all different: No central theme | Exampl
 
 Related Udemy Course: https://www.udemy.com/course/design-patterns-csharp-dotnet/
 
+[C# Design patterns by dofactory](https://www.dofactory.com/net/design-patterns)
+
 ### Youtube:
 [Game Programming Patterns by Infallible Code](https://www.youtube.com/playlist?list=PLKERDLXpXl_hN_3tPJdLgjWJ12VH6igy1)
 
@@ -73,6 +75,7 @@ Related Udemy Course: [Learn Parallel Programming with C# and .NET](https://www.
 ### Asynchronous Programming (vs Synchronous):
 
 ## Clean Code:
+[C# Coding Standards](https://www.dofactory.com/csharp-coding-standards)
 
 ### Youtube:
 [Clean Code - Uncle Bob - all lessons](https://youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj&si=ZpFGKBTFG1guYTVH)
