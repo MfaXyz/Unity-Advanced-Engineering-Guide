@@ -7,6 +7,8 @@
 
 
 ## Example:
+> [!TIP]
+> Just attach Program script to a object in the scene and play.
 
 ### Program Class:
 ```C#
