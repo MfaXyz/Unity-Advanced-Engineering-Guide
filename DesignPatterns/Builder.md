@@ -5,6 +5,7 @@
 
 [Wikipedia](https://en.wikipedia.org/wiki/Builder_pattern)
 
+[Design Patterns for Unit Testing - Builder Pattern by Infallible Code](https://youtu.be/zH2cz1o9Vsg?si=v3b7108TvqZJzE3e)
 
 ## Example:
 > [!TIP]
