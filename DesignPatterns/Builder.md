@@ -56,6 +56,7 @@ namespace Builder
 ```
 
 ### Director Class:
+The Director class doesn't create and assemble objects directly. Instead, the Director refers to the Builder interface for building (creating and assembling) the parts of a complex object, which makes the Director independent of which concrete classes are instantiated (which representation is created).
 ```C#
 namespace Builder
 {
@@ -96,6 +97,7 @@ namespace Builder
 }
 ```
 ### IBuilder Interface:
+Abstract interface for creating objects (product).
 ```C#
 namespace Builder
 {
@@ -110,6 +112,7 @@ namespace Builder
 }
 ```
 ### ConcerteBuilder Class:
+Provides implementation for Builder. It is an object able to construct other objects. Constructs and assembles parts to build the objects.
 ```C#
 namespace Builder
 {
