@@ -50,7 +50,7 @@ Behavioral Design Patterns: 1- They are all different: No central theme | Exampl
 
 Related Udemy Course: https://www.udemy.com/course/design-patterns-csharp-dotnet/
 
-[C# Design patterns by dofactory](https://www.dofactory.com/net/design-patterns)
+C# Design patterns by dofactory: https://www.dofactory.com/net/design-patterns
 
 ### Youtube:
 [Game Programming Patterns by Infallible Code](https://www.youtube.com/playlist?list=PLKERDLXpXl_hN_3tPJdLgjWJ12VH6igy1)
