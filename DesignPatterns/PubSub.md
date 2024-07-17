@@ -15,6 +15,10 @@ The pub/sub pattern has several advantages, such as:
 - Load balancing: The message broker can distribute messages to multiple subscribers, allowing for load balancing and improved performance.
 
 # Example:
+
+> [!NOTE]
+> This example doesn't have Event Bus.
+
 ## EmitterEntity.cs
 ```C#
 using System;
