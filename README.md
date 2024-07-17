@@ -48,7 +48,7 @@ Structrural Design Patterns: 1- Concerned with structure (e.g, Class Members) 2-
 
 Behavioral Design Patterns: 1- They are all different: No central theme | Example: Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Null Object, Observer, State, Strategy, Template Method, Visitor, Blackboard
 
-Game Related Design Patterns: Pattern that we usually use in game programming | Example: [Object Pooling](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/ObjectPooling.md) and [Pub/Sub]
+Game Related Design Patterns: Pattern that we usually use in game programming | Example: [Object Pooling](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/ObjectPooling.md) and [Pub/Sub](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/PubSub.md)
 
 Related Udemy Course: https://www.udemy.com/course/design-patterns-csharp-dotnet/
 
