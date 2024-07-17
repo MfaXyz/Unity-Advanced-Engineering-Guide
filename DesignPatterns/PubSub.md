@@ -70,3 +70,4 @@ namespace SignalSystem
 ```
 # References:
 [Implementing the Publish-subscribe pattern in Unity](https://medium.com/@kunaltandon.kt/implementing-the-publish-subscribe-pattern-in-unity-knowledge-scoops-60ca0ac29884)
+[Related Pub/Sub Messenger repository for Unity]([Pub/Sub Messenger for Unity](https://github.com/supermax/pubsub))
