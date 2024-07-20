@@ -78,26 +78,29 @@ namespace SignalSystem
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Signal Scriptable Object",fileName = "New Signal",order = 0)]
-public class Signal : ScriptableObject
+namespace SignalSystem
 {
-    public List<SignalListener> listeners = new List<SignalListener>();
-
-    public void Raise()
+    [CreateAssetMenu(menuName = "ScriptableObjects/Signal Scriptable Object",fileName = "New Signal",order = 2)]
+    public class Signal : ScriptableObject
     {
-        foreach (var listener in listeners)
+        public List<SignalListener> listeners = new List<SignalListener>();
+
+        public void Raise()
         {
-            listener.OnSignalRaised();
+            foreach (var listener in listeners)
+            {
+                listener.OnSignalRaised();
+            }
         }
-    }
 
-    public void RegisterListener(SignalListener listener)
-    {
-        listeners.Add(listener);
-    }
-    public void DeRegisterListener(SignalListener listener)
-    {
-        listeners.Remove(listener);
+        public void RegisterListener(SignalListener listener)
+        {
+            listeners.Add(listener);
+        }
+        public void DeRegisterListener(SignalListener listener)
+        {
+            listeners.Remove(listener);
+        }
     }
 }
 ```
@@ -107,23 +110,26 @@ public class Signal : ScriptableObject
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SignalListener : MonoBehaviour
+namespace SignalSystem
 {
-    public Signal signal;
-    public UnityEvent signalEvent;
+    public class SignalListener : MonoBehaviour
+    {
+        public Signal signal;
+        public UnityEvent signalEvent;
     
-    public void OnSignalRaised()
-    {
-        signalEvent.Invoke();
-    }
+        public void OnSignalRaised()
+        {
+            signalEvent.Invoke();
+        }
 
-    private void OnEnable()
-    {
-        signal.RegisterListener(this);
-    }
-    private void OnDisable()
-    {
-        signal.DeRegisterListener(this);
+        private void OnEnable()
+        {
+            signal.RegisterListener(this);
+        }
+        private void OnDisable()
+        {
+            signal.DeRegisterListener(this);
+        }
     }
 }
 ```
