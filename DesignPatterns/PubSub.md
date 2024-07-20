@@ -80,7 +80,7 @@ using UnityEngine;
 
 namespace SignalSystem
 {
-    [CreateAssetMenu(menuName = "ScriptableObjects/Signal Scriptable Object",fileName = "New Signal",order = 2)]
+    [CreateAssetMenu(menuName = "ScriptableObjects/Signal",fileName = "New Signal",order = 2)]
     public class Signal : ScriptableObject
     {
         public List<SignalListener> listeners = new List<SignalListener>();
