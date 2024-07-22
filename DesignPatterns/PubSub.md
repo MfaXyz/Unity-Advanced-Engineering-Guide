@@ -80,19 +80,18 @@ using UnityEngine;
 
 namespace SignalSystem
 {
-    [CreateAssetMenu(menuName = "ScriptableObjects/Signal",fileName = "New Signal",order = 2)]
+    [CreateAssetMenu(menuName = "Xyz/Signal Object",fileName = "New Signal Object",order = 2)]
     public class Signal : ScriptableObject
     {
-        public List<SignalListener> listeners = new List<SignalListener>();
+        public List<SignalListener> listeners;
 
-        public void Raise()
+        public void Raise(int outputNumber)
         {
             foreach (var listener in listeners)
             {
-                listener.OnSignalRaised();
+                listener.OnSignalRaised(outputNumber);
             }
         }
-
         public void RegisterListener(SignalListener listener)
         {
             listeners.Add(listener);
@@ -107,20 +106,21 @@ namespace SignalSystem
 
 ### SignalListener.cs
 ```C#
+using System;
 using UnityEngine;
-using UnityEngine.Events;
 
 namespace SignalSystem
 {
     public class SignalListener : MonoBehaviour
     {
         public Signal signal;
-        public UnityEvent signalEvent;
-    
-        public void OnSignalRaised()
+        public event Action<int> SignalOutput;
+        
+        public void OnSignalRaised(int outputNumber)
         {
-            signalEvent.Invoke();
+            SignalOutput?.Invoke(outputNumber);
         }
+        
 
         private void OnEnable()
         {
@@ -136,23 +136,39 @@ namespace SignalSystem
 
 ### Usage Exameple Class:
 ```C#
+using SignalSystem;
 using UnityEngine;
 
 public class SystemTester : MonoBehaviour
 {
-    public Signal firstTestSignal;
-    
-    public void DoSomething()
+    public SignalListener signalListener;
+
+    private void Start()
     {
-        firstTestSignal.Raise();
+        SubscribeMethodToEvent();
     }
 
-    public void PrintSomething()
+    private void SubscribeMethodToEvent()
     {
-        Debug.Log($"Something Printed");
+        signalListener.SignalOutput += PrintEnumName;
+    }
+
+    private static void PrintEnumName(int outputNumber)
+    {
+        var enumMember = (TestEnum)outputNumber;
+        Debug.Log($"Something Printed with Number Of {enumMember}");
     }
 }
+
+public enum TestEnum
+{
+    First = 1,
+    Second = 2,
+    Third = 4,
+    Fourth = 8
+}
 ```
+![image](https://github.com/user-attachments/assets/0b071470-3611-4e47-8833-fe46f649dbca)
 
 # References:
 [Implementing the Publish-subscribe pattern in Unity](https://medium.com/@kunaltandon.kt/implementing-the-publish-subscribe-pattern-in-unity-knowledge-scoops-60ca0ac29884)
