@@ -121,7 +121,6 @@ namespace SignalSystem
             SignalOutput?.Invoke(outputNumber);
         }
         
-
         private void OnEnable()
         {
             signal.RegisterListener(this);
