@@ -188,4 +188,5 @@ public class PoolExample : MonoBehaviour
 
 # References:
 [Introduction to Object Pooling by Unity](https://learn.unity.com/tutorial/introduction-to-object-pooling)
-[ObjectPool<T>](https://docs.unity3d.com/ScriptReference/Pool.ObjectPool_1.html)
+
+[Unity Built-in ObjectPool<T> system](https://docs.unity3d.com/ScriptReference/Pool.ObjectPool_1.html)
