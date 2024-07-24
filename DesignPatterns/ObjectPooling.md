@@ -66,7 +66,7 @@ GameObject bullet = ObjectPool.SharedInstance.GetPooledObject();
 gameobject.SetActive(false);
 ```
 
-## Example 2:
+## Example 2: (Best Choice - Unity Built-in System)
 
 The ObjectPool uses a stack to hold a collection of object instances for reuse and is not thread-safe.
 
