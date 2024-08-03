@@ -42,7 +42,7 @@ So what is Dependency Injection? DI is a subtype of IoC (We will talk about it l
 ## Design Patterns:
 Design pattern list:
 
-Creational Design Patterns: 1-Deal with creation(construction) of objects 2-Explicit (constructor) VS Implicit (DI, Reflection, etc) | Example: [Builder](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/Builder.md), Factories ([Factory Method](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/FactoryMethod.md) and Abstract Factory), Prototype and Singleton 
+Creational Design Patterns: 1-Deal with creation(construction) of objects 2-Explicit (constructor) VS Implicit (DI, Reflection, etc) | Example: [Builder](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/Builder.md), ([Factory Method](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/FactoryMethod.md) and Abstract Factory), [Prototype](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/Prototype.md) and Singleton 
 
 Structrural Design Patterns: 1- Concerned with structure (e.g, Class Members) 2- Many patterns are wrappers that mimic the underlying class interface. 3- Stress the importance of good API design | Example: Adapter, Bridge, Composite, Decorator, Façade, Flyweight and Proxy
 
