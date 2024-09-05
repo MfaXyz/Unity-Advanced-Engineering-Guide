@@ -6,7 +6,48 @@ Just like a global variable, the Singleton pattern lets you access some object f
 
 ## Example:
 
+### SingletonClass.cs
+```C#
+using UnityEngine;
+
+public class SingletonClass : MonoBehaviour
+{
+    public static SingletonClass Instance { get; private set; }
+
+    public float testVariable;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this.gameObject);
+        } else {
+            Instance = this;
+        }
+
+        testVariable = Random.Range(0, 10);
+    }
+}
+```
+
+### TestClass.cs
+```C#
+using UnityEngine;
+
+public class TestClass : MonoBehaviour
+{
+    private void Start()
+    {
+        Debug.Log(SingletonClass.Instance.testVariable);
+    }
+}
+
+```
+
 
 ## Resources:
 (Singleton pattern)[https://en.wikipedia.org/wiki/Singleton_pattern]
+
 (Singleton refactoring.guru)[https://refactoring.guru/design-patterns/singleton]
+
+(Stack Exchange)[https://gamedev.stackexchange.com/questions/116009/in-unity-how-do-i-correctly-implement-the-singleton-pattern]
