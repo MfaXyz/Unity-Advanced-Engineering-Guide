@@ -46,8 +46,8 @@ public class TestClass : MonoBehaviour
 
 
 ## Resources:
-(Singleton pattern)[https://en.wikipedia.org/wiki/Singleton_pattern]
+[Singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
 
-(Singleton refactoring.guru)[https://refactoring.guru/design-patterns/singleton]
+[Singleton refactoring.guru](https://refactoring.guru/design-patterns/singleton)
 
-(Stack Exchange)[https://gamedev.stackexchange.com/questions/116009/in-unity-how-do-i-correctly-implement-the-singleton-pattern]
+[Stack Exchange](https://gamedev.stackexchange.com/questions/116009/in-unity-how-do-i-correctly-implement-the-singleton-pattern)
