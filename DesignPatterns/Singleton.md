@@ -46,7 +46,7 @@ public class TestClass : MonoBehaviour
 
 
 ## Resources:
-[Singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
+[Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 [Singleton refactoring.guru](https://refactoring.guru/design-patterns/singleton)
 
