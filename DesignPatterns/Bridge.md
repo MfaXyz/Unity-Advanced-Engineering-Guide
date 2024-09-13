@@ -1,0 +1,1 @@
+# Brdige Design Pattern
