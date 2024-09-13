@@ -44,7 +44,7 @@ Design pattern list:
 
 Creational Design Patterns: 1-Deal with creation(construction) of objects 2-Explicit (constructor) VS Implicit (DI, Reflection, etc) | Example: [Builder](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/Builder.md), [Factory Method](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/FactoryMethod.md) and Abstract Factory), [Prototype](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/Prototype.md) and [Singleton](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/Singleton.md) 
 
-Structrural Design Patterns: 1- Concerned with structure (e.g, Class Members) 2- Many patterns are wrappers that mimic the underlying class interface. 3- Stress the importance of good API design | Example: ]Adapter](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/Adapter.md), Bridge, Composite, Decorator, Façade, Flyweight and Proxy
+Structrural Design Patterns: 1- Concerned with structure (e.g, Class Members) 2- Many patterns are wrappers that mimic the underlying class interface. 3- Stress the importance of good API design | Example: [Adapter](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/Adapter.md), [Bridge](https://github.com/MfaXyz/Unity-Advanced-Engineering-Guide/blob/main/DesignPatterns/Bridge.md), Composite, Decorator, Façade, Flyweight and Proxy
 
 Behavioral Design Patterns: 1- They are all different: No central theme | Example: Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Null Object, Observer, State, Strategy, Template Method, Visitor, Blackboard
 
