@@ -8,7 +8,7 @@ In game programming, this pattern is commonly applied to organize groups of rela
 
 In this example, we will create a structure where individual soldiers form squads, and multiple squads form an army. The goal is to make sure we can command both a single soldier or an entire army using the same interface.
 
-#### IUnit.cs
+#### IUnit.cs (Common Interface)
 
 1 - We define a Unit interface to declare common methods for both individual soldiers and composite units like squads and armies.
 
@@ -21,7 +21,7 @@ public interface IUnit
 }
 ```
 
-#### Soldier.cs
+#### Soldier.cs (Leaf)
 
 2 - We implement the Soldier class that represents individual units in the game.
 
@@ -54,7 +54,7 @@ public class Soldier : IUnit
 }
 ```
 
-#### Squad.cs
+#### Squad.cs (Composite Class)
 
 3 - We implement the Squad class, which can contain multiple soldiers or other units.
 
