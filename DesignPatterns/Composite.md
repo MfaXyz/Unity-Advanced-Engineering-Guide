@@ -56,7 +56,7 @@ public class Soldier : IUnit
 
 #### Squad.cs
 
-We implement the Squad class, which can contain multiple soldiers or other units.
+3 - We implement the Squad class, which can contain multiple soldiers or other units.
 
 ```C#
 public class Squad : IUnit
@@ -103,7 +103,7 @@ public class Squad : IUnit
 
 #### ArmyController.cs
 
-Now, we can create individual soldiers, add them to a squad, and command them as a group.
+4 - Now, we can create individual soldiers, add them to a squad, and command them as a group.
 
 ```C#
 public class ArmyController : MonoBehaviour
