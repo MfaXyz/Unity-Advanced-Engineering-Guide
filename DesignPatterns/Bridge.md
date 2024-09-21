@@ -29,7 +29,108 @@ public interface IControlSystem
 ```
 
 #### KeyboardControl.cs
+```C#
+// Concrete Implementor 1
+public class KeyboardControl : IControlSystem
+{
+    public void Accelerate()
+    {
+        Debug.Log("Accelerating with keyboard");
+    }
 
+    public void Steer()
+    {
+        Debug.Log("Steering with keyboard");
+    }
+}
+```
+
+#### GamepadControl.cs
+```C#
+// Concrete Implementor 2
+public class GamepadControl : IControlSystem
+{
+    public void Accelerate()
+    {
+        Debug.Log("Accelerating with gamepad");
+    }
+
+    public void Steer()
+    {
+        Debug.Log("Steering with gamepad");
+    }
+}
+```
+
+#### Vehicle.cs
+```C#
+// The 'Abstraction' class
+public abstract class Vehicle
+{
+    protected IControlSystem controlSystem;
+
+    protected Vehicle(IControlSystem controlSystem)
+    {
+        this.controlSystem = controlSystem;
+    }
+
+    public abstract void Operate();
+}
+```
+
+#### Car.cs
+```C#
+// Concrete Abstraction 1
+public class Car : Vehicle
+{
+    public Car(IControlSystem controlSystem) : base(controlSystem) { }
+
+    public override void Operate()
+    {
+        Debug.Log("Operating Car");
+        controlSystem.Accelerate();
+        controlSystem.Steer();
+    }
+}
+```
+
+#### Boat.cs
+```C#
+// Concrete Abstraction 2
+public class Boat : Vehicle
+{
+    public Boat(IControlSystem controlSystem) : base(controlSystem) { }
+
+    public override void Operate()
+    {
+        Debug.Log("Operating Boat");
+        controlSystem.Accelerate();
+        controlSystem.Steer();
+    }
+}
+```
+
+#### BridgePatternExample.cs
+```C#
+// Usage example
+public class BridgePatternExample : MonoBehaviour
+{
+    private void Start()
+    {
+        IControlSystem keyboardControl = new KeyboardControl();
+        IControlSystem gamepadControl = new GamepadControl();
+
+        Vehicle car = new Car(keyboardControl);
+        Vehicle boat = new Boat(gamepadControl);
+
+        car.Operate(); // Output: Operating Car + Accelerating/Steering with keyboard
+        boat.Operate(); // Output: Operating Boat + Accelerating/Steering with gamepad
+    }
+}
+```
 
 ## References:
+
 [Wikipedia](https://en.wikipedia.org/wiki/Bridge_pattern)
+
+[Guru](https://refactoring.guru/design-patterns/bridge)
